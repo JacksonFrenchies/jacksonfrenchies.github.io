@@ -1,0 +1,32 @@
+body {
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+nav {
+    display: flex;
+    padding-block: 1rem;
+}
+nav a {
+    padding-inline: 1rem;
+    color: black;
+    text-decoration: none;
+}
+span {
+    font-style: italic;
+    font-family: cursive;
+}
+
+img.full-width {
+    padding-block: 1rem;
+    width: 100%;
+    max-height: 40vw;
+    object-fit: cover;
+}
