@@ -30,3 +30,7 @@ img.full-width {
     max-height: 40vw;
     object-fit: cover;
 }
+
+img {
+    max-width: 100%;
+}
